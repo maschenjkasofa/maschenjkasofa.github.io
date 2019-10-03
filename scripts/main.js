@@ -1,2 +1,1 @@
-alert("Hello")
-alert ("Vitiia")
+alert("me")
