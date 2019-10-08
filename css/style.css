@@ -1,6 +1,42 @@
 .menu {
-	list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.lecture-header {
+    text-align: center;
+    font-weight: bold;
+    color: teal;
+}
+.lecture-theme {
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+.lecture-content-header {
+    font-weight: bold;
+    font-size: larger;
+    color: red;
+}
+.lecture-plan {
+    border-style: solid;
+    border-width: 2px;
+    border-color: teal;
+}
+.lecture-plan p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: slategrey;
+    color: white;
+    text-align: center;
+    padding: 25px;
 }
