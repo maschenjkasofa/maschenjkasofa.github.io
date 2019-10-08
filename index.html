@@ -1,36 +1,98 @@
 <!DOCTYPE html>
 <html>
-<head>
-	 <link rel="stylesheet" href="css/style.css">
-	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
- <title>Page Title</title>
-</head>
-<body>
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col-4">
-					<img src="images/logo.jpg">
-				</div>
-				<div class="col-8">
-					<ul class="menu">
-						<li>
-							Головна
-						</li>
-						<li>
-							Новини
-						</li>
-						<li>
-							Галерея
-						</li>
-					</ul>
+	<head>
+		 <link rel="stylesheet" href="css/style.css">
+		<style>
+			.lecture-header {
+				text-align: center;
+				font-weight: bold;
+				color: teal;
+			}
+			.lecture-theme {
+				text-align: center;
+				margin: 20px;
+				font-weight: bold;
+			}
+			.lecture-content-header {
+				font-weight: bold;
+				font-size: larger;
+				color: red;
+			}
+			.lecture-plan {
+				border-style: solid;
+				border-width: 2px;
+				border-color: teal;
+			}
+			.lecture-plan p {
+				text-align: center;
+				font-weight: bold;
+    			font-size: 20px;
+			}
+		</style>
+		 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<title>NPI Education</title>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-4">
+						<img src="images/logo.jpg">
+					</div>
+					<div class="col-8">
+						<ul class="menu">
+							<li>
+								Головна
+							</li>
+							<li>
+								Новини
+							</li>
+							<li>
+								Галерея
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			
-		</div>
-	</header>
-<button type="button" class="btn btn-primary">Mariia</button>
+		</header>
 
-<script src="scripts/main.js"></script>
-</body>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="lecture-header">
+						Lecture 6
+					</h1>
+					<h3 class="lecture-theme">
+						Boolean logic. First JS script. Setup version control in Pycharm.
+					</h3>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-6">
+					<img src="images/boolean.jpg">
+				</div>
+				<div class="col-6">
+					<div class="lecture-plan">
+						<p>Plan</p>
+						<ul>
+							<li>Boolean logic</li>
+							<li>Setup Version Control in Pycharm</li>
+							<li>Write first JS script</li>
+						</ul>
+					</div>
+					<p class="lecture-content-header">Boolean logic: See picture</p>
+					<p class="lecture-content-header">Setup Version Control:</p>
+					<ul>
+						<li>VCS -> Checkout from Version Control -> Git -> Clone Repository</li>
+						<li>Go to GitHub and Copy URL</li>
+						<li>Select directory</li>
+						<li>Press Clone</li>
+					</ul>
+					<p class="lecture-content-header">Write js script that implements sign in logic</p>
+				</div>
+			</div>
+		</div>
+
+	<script src="scripts/main.js"></script>
+	</body>
 </html>
