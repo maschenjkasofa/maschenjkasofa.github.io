@@ -1,1 +1,3 @@
-alert("me")
+/*
+    Here should be implemented sign in logic
+*/
