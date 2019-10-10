@@ -1,42 +1,73 @@
-.menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+body {
+background-color: #f5f5f5;
+}
+header {
+    padding: 20px;
+    background-image: url(../images/header.jpg);
+    height: 300px;
+}
+.main-title {
+    color: #292929;
+    font-family: Regular Bold;
+    font-weight: 400;
+    font-size: 3rem;
+    letter-spacing: .15rem;
+    margin-bottom: 3.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
 }
 
-.lecture-header {
+.list-of-lectures {
+    background-color: #fff;
+}
+
+.list-of-lectures .item{
+    border-top-right-radius: .25rem;
+    border-top: .0625rem solid #e0e0e0;
+}
+.list-of-lectures .item .lecture-number{
+    font-family: Regular Bold;
+    font-size: 3rem;
+    letter-spacing: .15rem;
+    color: #525252;
+    width: 8rem;
+    padding: 2rem 1rem;
     text-align: center;
+    flex-shrink: 0;
     font-weight: bold;
-    color: teal;
+    flex-grow: 0;
 }
-.lecture-theme {
-    text-align: center;
-    margin: 20px;
+
+.list-of-lectures .item .lecture-summary{
+    color: #3d65c2;
+    font-size: 1.5rem;
+    line-height: 2.1;
     font-weight: bold;
 }
-.lecture-content-header {
-    font-weight: bold;
-    font-size: larger;
-    color: red;
-}
-.lecture-plan {
-    border-style: solid;
-    border-width: 2px;
-    border-color: teal;
-}
-.lecture-plan p {
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
+
+.list-of-lectures .item .lecture-description{
+    font-weight: 400;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: #484848;
+    font-size: 21px;
+    font-style: italic;
 }
 
 footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: slategrey;
-    color: white;
-    text-align: center;
-    padding: 25px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgray;
+  color: white;
+  text-align: center;
+}
+
+.footer-text {
+    margin: 20px;
+    font-style: oblique;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 21px;
+    font-weight: 800;
 }
