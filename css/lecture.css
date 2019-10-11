@@ -1,0 +1,21 @@
+.lecture-summary {
+    color: #292929;
+    font-family: Regular Bold;
+    font-size: 3rem;
+    letter-spacing: .15rem;
+    margin-bottom: 3.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.lecture-description {
+    font-weight: 400;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: #484848;
+    font-size: 21px;
+    font-style: italic;
+}
+.questions {
+    float: right;
+}

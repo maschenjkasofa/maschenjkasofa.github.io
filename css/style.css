@@ -9,7 +9,6 @@ header {
 .main-title {
     color: #292929;
     font-family: Regular Bold;
-    font-weight: 400;
     font-size: 3rem;
     letter-spacing: .15rem;
     margin-bottom: 3.5rem;
@@ -54,6 +53,9 @@ header {
     font-size: 21px;
     font-style: italic;
 }
+.list-of-lectures .item .view-lecture{
+    color: #fff;
+}
 
 footer {
   left: 0;
@@ -62,6 +64,7 @@ footer {
   background-color: darkgray;
   color: white;
   text-align: center;
+  margin-top: 40px;
 }
 
 .footer-text {
